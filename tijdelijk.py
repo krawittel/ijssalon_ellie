@@ -4,5 +4,6 @@ mijn_dictionary = {
   "chocolade" : 5 
 }
 aanbieding = mijn_dictionary["aardbei"] * 0.8
+reclame_tekst = (f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts € {aanbieding}")
 
-print(aanbieding)
+print(reclame_tekst)
