@@ -6,4 +6,5 @@ mijn_dictionary = {
 aanbieding = mijn_dictionary["aardbei"] * 0.8
 reclame_tekst = (f"Vandaag in de aanbieding: vanille-ijs, 1 liter – slechts euro {aanbieding}")
 reclame_tekst2 = reclame_tekst[:63]
-print(reclame_tekst2)
+reclame_tekst3 = reclame_tekst2.upper()
+print(reclame_tekst3)
