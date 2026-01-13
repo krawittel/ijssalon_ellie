@@ -1,4 +1,4 @@
-from reclame import mijn_functie_2
+from algemene_functies import mijn_functie_2
 
 def combinatie(invoer_lijst_2):
     korte_lijst = laag_en_hoog(invoer_lijst_2)
