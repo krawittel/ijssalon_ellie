@@ -1,3 +1,9 @@
+from algemene_functies import mijn_functie_2
+
+def combinatie(invoer_lijst_2):
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    return mijn_functie_2(korte_lijst[0], korte_lijst[1])
+
 def aanbieding_1(smaak, prijs, korting):
     nieuwe_prijs = prijs * (1 - korting)
     return (f"Vandaag in de aanbieding: emmertje ijs (1 liter) in de smaak {smaak}, van {prijs} euro voor {nieuwe_prijs:.2f} euro.")
